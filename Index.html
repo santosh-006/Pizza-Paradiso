@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradiso | Artisan Pizza</title>
+    <link rel="icon" href="Pizza-icon.png">
+    <!-- link to google fonts to include poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- link to font awesome to include icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="icon">Pizza Paradiso</div>
+        <nav class="menu" id="hide">
+            <a href="#content">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Recommendation</a>
+            <a href="#about">About</a>
+        </nav>
+        <button class="btn">Order Now</button>
+    </header>
+    <section class="content" id="content">
+        <div class="mcontent">
+            <h1>Artisan Pizzas Crafted with Passion</h1>
+            <p>Experience authentic italian flavours with our wood-fired pizzas made from locally-sourced ingredients
+            </p>
+            <a href="#menu"><button class="btn">Explore Menu</button></a>
+        </div>
+        <div class="mimage">
+            <img src="Pizza-icon.png" height="550px">
+        </div>
+    </section>
+    <section class="menu-holder" id="menu">
+        <h2>Menu Card</h2>
+        <div class="menu-fil">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pizza">Pizzas</button>
+            <button class="filter-btn" data-filter="other">Others</button>
+            <button class="filter-btn" data-filter="drinks">Drinks</button>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-card" data-category="pizza">
+                <img src="Pizza-icon.png" height="200px">
+                <div class="menu-card-content">
+                    <h3>Classic Pizza</h3>
+                    <p>San Marzano tomatoes, fresh mozzarella, basil</p>
+                    <div class="price">₹300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="other">
+                <img src="Burger.png" height="200px">
+                <div class="menu-card-content">
+                    <h3>Chicken Burger</h3>
+                    <p>Classic chicken burger with eggs, cheese, and pancetta</p>
+                    <div class="price">₹200</div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="other">
+                <img src="fries.png" height="200px">
+                <div class="menu-card-content">
+                    <h3>Golden Crunch Bliss</h3>
+                    <p>perfectly crisp fries, hand-seasoned and savory dip.</p>
+                    <div class="price">₹100</div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="drinks">
+                <img src="drinks.png" height="200px">
+                <div class="menu-card-content">
+                    <h3>Cococola</h3>
+                    <p>icy fizz Cococola, delivering bold flavor and joy in every sip.</p>
+                    <div class="price">₹80</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="features-grid">
+            <div class="features-card">
+                <i class="fas fa-fire"></i>
+                <h3>Wood-Fired Oven</h3>
+                <p>Authentic 900°F brick oven cooking</p>
+            </div>
+            <div class="features-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Local Ingredients</h3>
+                <p>Sourced from local farms daily</p>
+            </div>
+            <div class="features-card">
+                <i class="fas fa-clock"></i>
+                <h3>Fast Delivery</h3>
+                <p>30-minutes guarantee or free</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Customer Say</h2>
+        <div class="cst-grid">
+            <div class="cst">
+                <img src="bussiness-man.png" height="50rem">
+                <h3>Santosh kumar</h3>
+                <p>"The best pizza I've ever had! Fresh and Flavorful.."</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content" id="about">
+            <div class="footer-clm">
+                <h3>Pizza Paradiso</h3>
+                <p>Bringing authentic Italian flavors to your doorstep since 2020</p>
+            </div>
+            <div class="footer-clm">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Recommendation</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-clm">
+                <h3>Contact</h3>
+                <p>123 Pizza street, NY</p>
+                <P>(555) 123-4567</P>
+                <p>info@pizzaparadiso.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="social">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="copyright">© 2025 Pizza paradiso. All rights are reserved.</div>
+    </footer>
+    <script src="demo.js"></script>
+</body>
+
+
+</html>
